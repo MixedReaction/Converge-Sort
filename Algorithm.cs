@@ -3,7 +3,7 @@
 /// integers.
 /// </summary>
 /// <param name="array">
-/// The one-dimensioanl array of 32-bit integers to be sorted.
+/// The one-dimensional array of 32-bit integers to be sorted.
 /// </param>
 /// <remarks>
 /// Uses a stable double-ended selection sort algorithm.
