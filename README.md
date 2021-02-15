@@ -1,4 +1,4 @@
-# Converge-Sort
+# Converge Sort
 A stable double-ended selection sort algorithm.
 
 ## How It Works
