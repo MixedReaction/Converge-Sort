@@ -1,5 +1,5 @@
 # Converge Sort
-A stable double-ended selection sort algorithm.
+An unstable double-ended selection sort algorithm.
 
 ## How It Works
 Converge sort works by iterating over the elements of a collection as subsequences. The starting and ending point is determined by the algorithm on every cycle. Cycles can be described as a set of iterations. For every cycle, the starting and ending points of the subsequence are increased or reduced by one. This helps avoid iterating over elements that have already been sorted. For every iteration, both the smallest and largest elements are found and their position in the collection are stored. Using this information, we are able to swap or skip elements when sorting.
@@ -52,7 +52,7 @@ Not much has changed here since the lowest value is already in the correct posit
 
 `1 2 3 4 5`
 
-Notice how none of the elements are in bold, signifying that no iterations can take place. This is because we have finished the final cycle. The algorithm knows that the data will be ordered correctly on the final cycle so no further operations are executed. Please note how the algorithm sorts both sides of the collection from outside to inside, meeting each other in the middle. This is how the algorithms name was chosen.
+Notice how none of the elements are in bold, signifying that no iterations can take place. This is because we have finished the final cycle. The algorithm knows that the data will be ordered correctly on the final cycle so no further operations are executed. Please note how the algorithm sorts both sides of the collection from outside to inside, meeting each other in the middle.
 
 <b>It is also worth mentioning that we are able to determine the total amount of iterations required to sort the data by using:</b>  
 
