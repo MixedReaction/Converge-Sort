@@ -6,7 +6,7 @@
 /// The one-dimensional array of 32-bit integers to be sorted.
 /// </param>
 /// <remarks>
-/// Uses a stable double-ended selection sort algorithm.
+/// Uses an unstable double-ended selection sort algorithm.
 /// </remarks>
 /// <exception cref="ArgumentNullException">
 /// Thrown when <paramref name="array"/> is null.
